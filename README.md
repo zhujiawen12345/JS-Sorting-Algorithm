@@ -4,7 +4,6 @@
 
 排序算法是《数据结构与算法》中最基本的算法之一。
 
-排序算法可以分为内部排序和外部排序，内部排序是数据记录在内存中进行排序，而外部排序是因排序的数据很大，一次不能容纳全部的排序记录，在排序过程中需要访问外存。常见的内部排序算法有：**插入排序、希尔排序、选择排序、冒泡排序、归并排序、快速排序、堆排序、基数排序**等。用一张图概括：
 
 ![十大经典排序算法 概览截图](res/sort.png)
 
@@ -43,7 +42,7 @@
 ----
 
 
-**GitBook 内容大纲**
+**内容大纲**
 
 1. [冒泡排序](1.bubbleSort.md)
 2. [选择排序](2.selectionSort.md)
@@ -59,9 +58,3 @@
 ----
 
 本书内容几乎完全来源于网络。
-
-开源项目地址：[https://github.com/hustcc/JS-Sorting-Algorithm](https://github.com/hustcc/JS-Sorting-Algorithm)，整理人 [hustcc](https://github.com/hustcc)。
-
-GitBook 在线阅读地址：[https://sort.hust.cc/](https://sort.hust.cc/)。
-
-本项目使用 [lint-md](https://github.com/hustcc/lint-md) 进行中文 Markdown 文件的格式检查，务必在提交 Pr 之前，保证 Markdown 格式正确。
